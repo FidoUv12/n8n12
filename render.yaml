@@ -21,7 +21,9 @@ services:
     # All environment variables defined below are required!
     #
     # You can define additional environment variables as needed.
-    envVars:
+    envVars: docker
+    ports: - 5678
+
       # Generates a base64-encoded key for
       # encrypting credentials in n8n
       #
